@@ -12,13 +12,6 @@
     },
     {
       "type": "wokwi-led",
-      "id": "led2",
-      "top": -224.4,
-      "left": -160.2,
-      "attrs": { "color": "red", "flip": "" }
-    },
-    {
-      "type": "wokwi-led",
       "id": "led1",
       "top": -224.4,
       "left": -188.2,
@@ -36,8 +29,6 @@
   "connections": [
     ["led1:A", "uno:13", "green", ["v19.2", "h-230.8"]],
     ["led1:C", "uno:GND.1", "green", ["v0"]],
-    ["led2:A", "uno:12", "green", ["v19.2", "h-230.8"]],
-    ["led2:C", "uno:GND.1", "green", ["v0"]],
     ["btn1:2.l", "uno:2", "green", ["h-134.6", "v28.8"]],
     ["uno:GND.3", "btn1:1.r", "black", ["v19.1", "h205.6"]]
   ],
